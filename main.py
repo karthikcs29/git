@@ -1,0 +1,11 @@
+student = ("kaka", 21, "python")
+name, age, course = student
+print(name)
+print(age)
+print(course)
+
+thistuple = ("apple", "banana", "cherry")
+y = list(thistuple)
+y.append("orange")
+thistuple = tuple(y)
+print(thistuple)
